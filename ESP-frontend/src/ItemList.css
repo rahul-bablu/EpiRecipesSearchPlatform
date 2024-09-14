@@ -1,0 +1,23 @@
+.item-list-row-all {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    padding: 10px;
+    
+}
+
+.item-box-all {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.item-box-all:hover {
+    background-color: rgb(244, 6, 89);
+    color: #fff;
+    transform: scale(1.1);
+}

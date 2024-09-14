@@ -1,0 +1,71 @@
+.two-container {
+  display: flex;
+}
+
+.sidebar {
+  margin: 10px 0px 0px 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 350px;
+  padding: 20px;
+  position: sticky;
+}
+
+.category-page {
+  flex-grow: 1;
+  padding: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.category-items-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.rating-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-button {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.rating-button:hover {
+  background-color: rgb(244, 6, 89, 0.7);
+  color: white;
+}
+
+.rating-button.selected {
+  background-color: rgb(244, 6, 89);
+  color: white;
+}
+
+.range-filter {
+  margin-bottom: 20px;
+}
+
+.range-filter label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.range-filter input[type="range"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
